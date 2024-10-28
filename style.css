@@ -1,0 +1,57 @@
+/* Pohjat ja päätekstit */
+body {
+    background-color: #fff8f0; /* Vaaleanruskea tausta */
+    color: #333; /* Tumma teksti sen päällä */
+}
+
+/* Valikko */
+.navbar {
+    background-color: #ff6f00; /* Tumman oranssi tausta */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff; /* Valkoinen teksti */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffeb3b; /* Kirkas keltainen teksti hover-tilassa */
+}
+
+/* Karuselli */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #ff6f00; /* Tumman oranssi navigaatiopainikkeet */
+}
+
+.carousel-item img {
+    max-height: 500px; /* Kuvien maksimi korkeus */
+    object-fit: cover; /* Kuvien sovitus sivustossa */
+}
+
+/* Kortit alla */
+.card {
+    border: 1px solid #ff6f00; /* Tumman oranssi reuna */
+}
+
+.card-title {
+    color: #ff6f00; /* Tumman oranssit otsikot */
+}
+
+/* Haittari */
+.card-header {
+    background-color: #ff6f00; /* Tumman oranssi otsikkotausta */
+    color: #fff; /* Valkoinen teksti */
+}
+
+.card-body {
+    background-color: #fff; /* Valkoinen tausta */
+}
+
+/* Taulukko alla*/
+.table thead th {
+    background-color: #ff6f00; /* Tumman oranssi taustaväri otsikoille */
+    color: #fff; /* Valkoinen teksti otsikoille */
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #ffe0b2; /* Vaaleanruskea taustaväri pariteille riveille */
+}
